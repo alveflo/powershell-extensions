@@ -30,7 +30,7 @@ hg branches | % {
 		Write-Host ("{0, $longestBranchName} " -f $branch) -NoNewline
 	}
 	Write-Host ": " -NoNewline
-	Write-Host $changeset -f Blue -NoNewline
+	Write-Host $changeset -f Yellow -NoNewline
 	Write-Host " $active"
 }
 
